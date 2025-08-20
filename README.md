@@ -72,7 +72,7 @@ Para simular o banco de dados, utiliza-se uma **lista estática** (`List<Usuario
 
 A API utiliza uma **lista estática** como banco de dados em memória.
 
-### 🔹 GET `/api/minhaprimeira`
+### 🔹 GET `/api/Usuario`
 Retorna todos os itens.
 
 **Exemplo de Resposta:**
@@ -89,7 +89,7 @@ Retorna todos os itens.
 ]
 ```
 
-### 🔹 GET `/api/minhaprimeira/{id}`
+### 🔹 GET `/api/Usuario/{id}`
 Retorna um item específico pelo **ID**.
 
 **Exemplo:**
@@ -105,7 +105,7 @@ GET /api/minhaprimeira/1
 }
 ```
 
-### 🔹 POST `/api/minhaprimeira`
+### 🔹 POST `/api/Usuario`
 Cria um novo item (adiciona à lista em memória).
 
 **Exemplo de Corpo da Requisição:**
@@ -115,7 +115,7 @@ Cria um novo item (adiciona à lista em memória).
 }
 ```
 
-### 🔹 PUT `/api/minhaprimeira/{id}`
+### 🔹 PUT `/api/Usuario/{id}`
 Atualiza um item existente.
 
 **Exemplo de Corpo da Requisição:**
@@ -126,7 +126,7 @@ Atualiza um item existente.
 }
 ```
 
-### 🔹 DELETE `/api/minhaprimeira/{id}`
+### 🔹 DELETE `/api/Usuario/{id}`
 Remove um item pelo **ID** da lista.
 
 ---
