@@ -156,7 +156,7 @@ namespace MinhaPrimeiraAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class MinhaPrimeiraController : ControllerBase
+    public class UsuarioController : ControllerBase
     {
         // Lista estática simulando banco de dados
         private static List<MinhaModel> itens = new List<MinhaModel>
