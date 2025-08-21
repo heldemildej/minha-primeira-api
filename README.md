@@ -1,6 +1,6 @@
 # 📌 MinhaPrimeiraAPI
 
-API desenvolvida em **.NET Core 7** para fins de estudo e prática.
+API desenvolvida em **.NET Core 6** para fins de estudo e prática.
 O projeto implementa um **CRUD básico** utilizando uma **lista estática em memória** para simular o banco de dados de forma temporária.
 
 ---
